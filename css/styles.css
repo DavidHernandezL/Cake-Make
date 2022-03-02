@@ -121,3 +121,15 @@ footer {
     grid-template-columns: repeat(1fr,3);
     gap: 3px;
 }
+
+.inventario {
+    border: 1px solid #fff;
+    padding: 20px;
+    margin: 20px;
+}
+
+.pedidos {
+    border: 1px solid #fff;
+    padding: 20px;
+    margin: 20px;
+}
