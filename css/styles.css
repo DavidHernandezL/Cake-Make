@@ -104,3 +104,9 @@ footer {
     background-color: rgb(77, 179, 179);
     
 }
+
+.pedido {
+    border: 1px solid white;
+    margin: 35px;
+    padding: 20px;
+}
