@@ -106,7 +106,18 @@ footer {
 }
 
 .pedido {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 10px;
     border: 1px solid white;
     margin: 35px;
-    padding: 20px;
+    padding: 50px;
+
+}
+
+.datos {
+    display: grid;
+    grid-template-columns: repeat(1fr,3);
+    gap: 3px;
 }

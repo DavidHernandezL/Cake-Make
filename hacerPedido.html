@@ -34,7 +34,7 @@
 
                 <ul class="navbar">
                     <li class="navbar-item">
-                        <a href="#" class="navbar-link"><i class="uil uil-estate icon"></i>  Inicio</a>
+                        <a href="./index.html" class="navbar-link"><i class="uil uil-estate icon"></i>  Inicio</a>
                     </li>
                     <li class="navbar-item">
                         <a href="#" class="navbar-link"><i class="uil uil-users-alt icon"></i>  Quienes Somos</a>
@@ -43,7 +43,7 @@
                         <a href="#" class="navbar-link"><i class="uil uil-crockery icon"></i>  Pasteles</a>
                     </li>
                     <li class="navbar-item">
-                        <a href="./hacerPedido.html" class="navbar-link"><i class="uil uil-crockery icon"></i>  Crear Pastel</a>
+                        <a href="" class="navbar-link"><i class="uil uil-crockery icon"></i>  Crear Pastel</a>
                     </li>
                 </ul>
 
@@ -53,32 +53,39 @@
         <main>
             <div class="principal">
                 <form class="pedido" action="get">
-                    <label for="name">Nombre</label>
-                    <input type="text" id="name" placeholder="David Hernandez">
+                    <div class="datos">
+                        <label for="name">Nombre</label>
+                        <input type="text" id="name" placeholder="David Hernandez">
 
-                    <label for="tel">Telefono</label>
-                    <input type="tel" id="tel" placeholder="2311459545">
+                        <label for="tel">Telefono</label>
+                        <input type="tel" id="tel" placeholder="2311459545">
 
-                    <label for="email"></label>
-                    <input type="email" id="email" placeholder="david@email.com">
+                        <label for="email">Correo</label>
+                        <input type="email" id="email" placeholder="david@email.com">
+                        
+                        <label for="desc">Descripcion del pedido</label>
+                        <textarea name="desc" id="desc" cols="30" rows="10"></textarea>
+                    </div>
 
-                    <label for="desc">Descripcion del pedido</label>
-                    <textarea name="desc" id="desc" cols="30" rows="10"></textarea>
 
                     <div>
                         <label for="sab">Sabores</label>
-                        <input type="checkbox" name="sab" id="sab"><label for="sab">Vainilla</label>
-                        <input type="checkbox" name="sab" id="sab"><label for="sab">Chocolate</label>
-                        <input type="checkbox" name="sab" id="sab"><label for="sab">Fresa</label>
-                        <input type="checkbox" name="sab" id="sab"><label for="sab">Limon</label>
+                        <div>
+                            <input type="checkbox" name="sab" id="sab"><label for="sab">Vainilla</label>
+                            <input type="checkbox" name="sab" id="sab"><label for="sab">Chocolate</label>
+                            <input type="checkbox" name="sab" id="sab"><label for="sab">Fresa</label>
+                            <input type="checkbox" name="sab" id="sab"><label for="sab">Limon</label>
+                        </div>
                     </div>
 
                     <div>
                         <label for="sab">Adornos</label>
-                        <input type="checkbox" name="sab" id="sab"><label for="sab">Galletas</label>
-                        <input type="checkbox" name="sab" id="sab"><label for="sab">Chispas</label>
-                        <input type="checkbox" name="sab" id="sab"><label for="sab">Gomitas</label>
-                        <input type="checkbox" name="sab" id="sab"><label for="sab">Dulces</label>
+                        <div>
+                            <input type="checkbox" name="sab" id="sab"><label for="sab">Galletas</label>
+                            <input type="checkbox" name="sab" id="sab"><label for="sab">Chispas</label>
+                            <input type="checkbox" name="sab" id="sab"><label for="sab">Gomitas</label>
+                            <input type="checkbox" name="sab" id="sab"><label for="sab">Dulces</label>
+                        </div>
                     </div>
                     
                     <input type="submit" value="Hacer pedido">
